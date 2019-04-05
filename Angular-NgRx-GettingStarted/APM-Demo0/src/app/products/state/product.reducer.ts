@@ -9,7 +9,7 @@ export function reducer(state, action) {
         return {
             ...state,
             showProductCode: action.payload
-        }
+        };
 
         default:
             return state;
