@@ -39,7 +39,7 @@ export class LoginComponent implements OnInit {
   checkChanged(value: boolean): void {
 
     this.store.dispatch({
-      type: 'MAS_USER_NAME',
+      type: 'MASK_USER_NAME',
       payload: value
     });
 
