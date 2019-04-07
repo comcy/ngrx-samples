@@ -1,7 +1,7 @@
 import { Action } from '@ngrx/store';
 import { Product } from '../product';
 
-// Action types
+// Action types: Selection names in reducer
 
 export enum ProductActionTypes {
     ToggleProductCode = '[Product] Toggle Product Code',
